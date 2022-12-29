@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
-const Nav = () => {
-    return (<div>
-        
-    </div> );
+import React from 'react';
+
+
+
+function Nav() {
+    return ( <div></div> );
 }
- 
+
 export default Nav;
