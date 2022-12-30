@@ -14,7 +14,7 @@ function Home() {
     >
       <div className="home-container">
         <h1>Goody's Pizzeria</h1>
-        <p>pizz to fit any taste</p>
+        <p>pizza to fit any taste</p>
         <Link to={Menu}>
           <button>ODER NOW</button>
         </Link>
