@@ -4,10 +4,10 @@ import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import "../Style/NavBar.css";
 import "font-awesome/css/font-awesome.css";
-import Home from "../pages/Home";
-import Menu from "../pages/Menu";
-import About from "../pages/About";
-import Contact from "../pages/Contact";
+// import Home from "../pages/Home";
+// import Menu from "../pages/Menu";
+// import About from "../pages/About";
+// import Contact from "../pages/Contact";
 
 function NavBar() {
   const [openLink, setOpenlinks] = useState(false);
