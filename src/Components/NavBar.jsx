@@ -4,10 +4,6 @@ import logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
 import "../Style/NavBar.css";
 import "font-awesome/css/font-awesome.css";
-// import Home from "../pages/Home";
-// import Menu from "../pages/Menu";
-// import About from "../pages/About";
-// import Contact from "../pages/Contact";
 
 function NavBar() {
   const [openLink, setOpenlinks] = useState(false);
@@ -19,12 +15,6 @@ function NavBar() {
     <div className="navBar">
       <div className="left-side" id={openLink ? "open" : "close"}>
         <img src={logo} alt="logo" style={{ width: "70px", height: "70px" }} />
-        {/* <div className="hidden-links">\
-                    <Link to={Home }>Home</Link>
-                    <Link to={Menu }>Menu</Link>
-                    <Link to={About }>About</Link>
-                    <Link to={Contact }>Contact</Link>
-                </div> */}
 
         <div className="hidden-links">
           <Link to="/Home">Home</Link>

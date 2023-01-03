@@ -1,0 +1,32 @@
+.about{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        /* margin-bottom:20px; */
+        padding: 0px 1px;
+    
+}
+
+.about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    height: inherit;
+}
+
+
+.about-us  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    text-align:center;
+    padding: 10px 4px;
+    transform: translateX(46px);
+}
