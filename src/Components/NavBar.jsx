@@ -17,6 +17,9 @@ function NavBar() {
         <img src={logo} alt="logo" style={{ width: "70px", height: "70px" }} />
 
         <div className="hidden-links">
+          <span className="time-holder">
+            <i className="fa fa-times" onClick={toggller}></i>
+          </span>
           <Link to="/Home">Home</Link>
           <Link to="/Menu">Menu</Link>
           <Link to="/About">About</Link>
