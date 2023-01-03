@@ -1,5 +1,6 @@
 import React from "react";
-import AboutImg from "../assets/.jpg";
+import AboutImg from "../assets/3.jpg";
+import "../Style/Contact.css";
 
 function Contact() {
   return (
@@ -11,15 +12,15 @@ function Contact() {
           backgroundPosition: "center",
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
-          width: "100%",
-          height: "300px",
+
           display: "flex",
           justifyContent: "center",
           // alignItems: "center",
         }}
       ></div>
       <div className="rightSide">
-        <form>
+        <h2>CONTACT US</h2>
+        <form id="contact-form" method="POST">
           <label htmlFor="name">Name</label>
           <input type="text" name="name" placeholder="Enter  name...." />
           <label htmlFor="email">Email</label>
