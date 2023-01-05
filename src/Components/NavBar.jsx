@@ -20,7 +20,7 @@ function NavBar() {
           <span className="time-holder">
             <i className="fa fa-times" onClick={toggller}></i>
           </span>
-          <Link to="/Home">Home</Link>
+          <Link to="/">Home</Link>
           <Link to="/Menu">Menu</Link>
           <Link to="/About">About</Link>
           <Link to="/Contact">Contact</Link>
@@ -28,7 +28,7 @@ function NavBar() {
       </div>
 
       <div className="right-side">
-        <Link to="/Home">Home</Link>
+        <Link to="/">Home</Link>
         <Link to="/Menu">Menu</Link>
         <Link to="/About">About</Link>
         <Link to="/Contact">Contact</Link>
